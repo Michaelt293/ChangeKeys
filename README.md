@@ -5,8 +5,12 @@ The Microsoft Sculpt keyboard is an excellent,reasonably-priced ergonomic keyboa
 
 This script can be made into an executable by using the following command in the ChangeKeys directory -
 
+```
 chmod +x changeKeys.sh
+```
 
 To the last line in the .bashrc file, add the following line to be able to run the script outside of the ChangeKeys folder (Note: You will need to reload the terminal after adding this line)-
 
+```
 alias changeKeys='FILEPATH_TO_changeKeys.sh'
+```
